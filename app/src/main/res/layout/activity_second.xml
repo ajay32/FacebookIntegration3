@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context="ajaymehta.facebookintegration3.Second">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv_facebook"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+       />
+
+    <TextView
+        android:text="text"
+        android:id="@+id/tv_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/logoutbtn"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:text="Logout"
+        android:background="#177ee6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
